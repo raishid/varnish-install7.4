@@ -20,5 +20,7 @@ unzip /tmp/varnish-modules.zip -d /tmp
 
 cd /tmp/varnish-modules-0.23.0 && ./bootstrap && ./configure && make && sudo make install
 
+rm -rf /tmp/varnish-modules.zip /tmp/varnish-modules-0.23.0
+
 
 
