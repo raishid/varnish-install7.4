@@ -1,7 +1,7 @@
 #/bin/bash
 
 #install dependencies
-sudo apt-get install -y curl wget
+sudo apt-get install -y curl wget zip unzip
 
 curl -s https://packagecloud.io/install/repositories/varnishcache/varnish74/script.deb.sh | sudo bash
 
